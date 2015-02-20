@@ -1,0 +1,277 @@
+-----------------Game Start -----------------------
+Playing frame: 1. Please enter how many pins were knocked down with roll 1:  6
+
+************************************************************************
+
+                                 SCOREBOARD
+Frame 1:   6            Total:
+Game Total:
+
+************************************************************************
+
+
+Playing frame: 1. Please enter how many pins were knocked down with roll 2:  7
+Invalid Input. There are not enough pins left.
+Playing frame: 1. Please enter how many pins were knocked down with roll 2:  4
+
+************************************************************************
+
+                                 SCOREBOARD
+Frame 1:   6|-          Total:
+Game Total:
+
+************************************************************************
+
+
+Playing frame: 2. Please enter how many pins were knocked down with roll 1:  10
+
+************************************************************************
+
+                                 SCOREBOARD
+Frame 1:   6|-          Total: 20
+Frame 2:   X            Total:
+Game Total: 20
+
+************************************************************************
+
+
+Playing frame: 3. Please enter how many pins were knocked down with roll 1:  10
+
+************************************************************************
+
+                                 SCOREBOARD
+Frame 1:   6|-          Total: 20
+Frame 2:   X            Total:
+Frame 3(@@):   X                Total:
+Game Total: 20
+
+************************************************************************
+
+
+Playing frame: 4. Please enter how many pins were knocked down with roll 1:  5
+
+************************************************************************
+
+                                 SCOREBOARD
+Frame 1:   6|-          Total: 20
+Frame 2:   X            Total: 25
+Frame 3(@@):   X                Total:
+Frame 4:   5            Total:
+Game Total: 45
+
+************************************************************************
+
+
+Playing frame: 4. Please enter how many pins were knocked down with roll 2:  3
+
+************************************************************************
+
+                                 SCOREBOARD
+Frame 1:   6|-          Total: 20
+Frame 2:   X            Total: 25
+Frame 3(@@):   X                Total: 18
+Frame 4:   5|3          Total: 8
+Game Total: 71
+
+************************************************************************
+
+
+Playing frame: 5. Please enter how many pins were knocked down with roll 1:  8
+
+************************************************************************
+
+                                 SCOREBOARD
+Frame 1:   6|-          Total: 20
+Frame 2:   X            Total: 25
+Frame 3(@@):   X                Total: 18
+Frame 4:   5|3          Total: 8
+Frame 5:   8            Total:
+Game Total: 71
+
+************************************************************************
+
+
+Playing frame: 5. Please enter how many pins were knocked down with roll 2:  3
+Invalid Input. There are not enough pins left.
+Playing frame: 5. Please enter how many pins were knocked down with roll 2:  3
+Invalid Input. There are not enough pins left.
+Playing frame: 5. Please enter how many pins were knocked down with roll 2:  2
+
+************************************************************************
+
+                                 SCOREBOARD
+Frame 1:   6|-          Total: 20
+Frame 2:   X            Total: 25
+Frame 3(@@):   X                Total: 18
+Frame 4:   5|3          Total: 8
+Frame 5:   8|-          Total:
+Game Total: 71
+
+************************************************************************
+
+
+Playing frame: 6. Please enter how many pins were knocked down with roll 1:  3
+
+************************************************************************
+
+                                 SCOREBOARD
+Frame 1:   6|-          Total: 20
+Frame 2:   X            Total: 25
+Frame 3(@@):   X                Total: 18
+Frame 4:   5|3          Total: 8
+Frame 5:   8|-          Total: 13
+Frame 6:   3            Total:
+Game Total: 84
+
+************************************************************************
+
+
+Playing frame: 6. Please enter how many pins were knocked down with roll 2:  7
+
+************************************************************************
+
+                                 SCOREBOARD
+Frame 1:   6|-          Total: 20
+Frame 2:   X            Total: 25
+Frame 3(@@):   X                Total: 18
+Frame 4:   5|3          Total: 8
+Frame 5:   8|-          Total: 13
+Frame 6:   3|-          Total:
+Game Total: 84
+
+************************************************************************
+
+
+Playing frame: 7. Please enter how many pins were knocked down with roll 1:  4
+
+************************************************************************
+
+                                 SCOREBOARD
+Frame 1:   6|-          Total: 20
+Frame 2:   X            Total: 25
+Frame 3(@@):   X                Total: 18
+Frame 4:   5|3          Total: 8
+Frame 5:   8|-          Total: 13
+Frame 6:   3|-          Total: 14
+Frame 7:   4            Total:
+Game Total: 98
+
+************************************************************************
+
+
+Playing frame: 7. Please enter how many pins were knocked down with roll 2:  2
+
+************************************************************************
+
+                                 SCOREBOARD
+Frame 1:   6|-          Total: 20
+Frame 2:   X            Total: 25
+Frame 3(@@):   X                Total: 18
+Frame 4:   5|3          Total: 8
+Frame 5:   8|-          Total: 13
+Frame 6:   3|-          Total: 14
+Frame 7:   4|2          Total: 6
+Game Total: 104
+
+************************************************************************
+
+
+Playing frame: 8. Please enter how many pins were knocked down with roll 1:  10
+
+************************************************************************
+
+                                 SCOREBOARD
+Frame 1:   6|-          Total: 20
+Frame 2:   X            Total: 25
+Frame 3(@@):   X                Total: 18
+Frame 4:   5|3          Total: 8
+Frame 5:   8|-          Total: 13
+Frame 6:   3|-          Total: 14
+Frame 7:   4|2          Total: 6
+Frame 8:   X            Total:
+Game Total: 104
+
+************************************************************************
+
+
+Playing frame: 9. Please enter how many pins were knocked down with roll 1:  10
+
+************************************************************************
+
+                                 SCOREBOARD
+Frame 1:   6|-          Total: 20
+Frame 2:   X            Total: 25
+Frame 3(@@):   X                Total: 18
+Frame 4:   5|3          Total: 8
+Frame 5:   8|-          Total: 13
+Frame 6:   3|-          Total: 14
+Frame 7:   4|2          Total: 6
+Frame 8:   X            Total:
+Frame 9(@@):   X                Total:
+Game Total: 104
+
+************************************************************************
+
+
+Playing frame: 10. Please enter how many pins were knocked down with roll 1:  9
+
+************************************************************************
+
+                                 SCOREBOARD
+Frame 1:   6|-          Total: 20
+Frame 2:   X            Total: 25
+Frame 3(@@):   X                Total: 18
+Frame 4:   5|3          Total: 8
+Frame 5:   8|-          Total: 13
+Frame 6:   3|-          Total: 14
+Frame 7:   4|2          Total: 6
+Frame 8:   X            Total: 29
+Frame 9(@@):   X                Total:
+Frame 10:   9           Total:
+Game Total: 133
+
+************************************************************************
+
+
+Playing frame: 10. Please enter how many pins were knocked down with roll 2:  1
+
+************************************************************************
+
+                                 SCOREBOARD
+Frame 1:   6|-          Total: 20
+Frame 2:   X            Total: 25
+Frame 3(@@):   X                Total: 18
+Frame 4:   5|3          Total: 8
+Frame 5:   8|-          Total: 13
+Frame 6:   3|-          Total: 14
+Frame 7:   4|2          Total: 6
+Frame 8:   X            Total: 29
+Frame 9(@@):   X                Total: 20
+Frame 10:   9|-                 Total:
+Game Total: 153
+
+************************************************************************
+
+
+Playing frame: 10. Please enter how many pins were knocked down with roll 3:  8
+
+************************************************************************
+
+                                 SCOREBOARD
+Frame 1:   6|-          Total: 20
+Frame 2:   X            Total: 25
+Frame 3(@@):   X                Total: 18
+Frame 4:   5|3          Total: 8
+Frame 5:   8|-          Total: 13
+Frame 6:   3|-          Total: 14
+Frame 7:   4|2          Total: 6
+Frame 8:   X            Total: 29
+Frame 9(@@):   X                Total: 20
+Frame 10:   9|-|8               Total: 18
+Game Total: 171
+
+************************************************************************
+
+
+Do you want to start a new game(yes to continue):no
+-----------------Good Bye -----------------------
