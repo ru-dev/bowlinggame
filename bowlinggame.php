@@ -138,17 +138,17 @@ class BowlingGameRules
 	/*
 	This function is used to decide if a roll is a strike.
 	*/
-	private function isStrike($numOfPinsDown)
+	private function isStrike($numOfPinsDown, $currentFrame,  $nthRollInFrame, $pinsDownByRoll, $nthRollInGame)
 	{
-		return ($numOfPinsDown == 10);
+		return (($nthRollInFrame == 1 || ($currentFrame == 10 && $nthRollInFrame> 1 && $pinsDownByRoll[$nthRollInGame-1] != 0 )) && $numOfPinsDown == 10);
 	}
 	
 	/*
 	This function is used to decide if a roll is a spare.
 	*/
-	private function isSpare($numOfPinsDown, $nthRollInFrame, $nthRollInGame, $pinsDownByRoll)
+	private function isSpare($numOfPinsDown, $currentFrame, $nthRollInFrame, $nthRollInGame, $pinsDownByRoll)
 	{
-		if($nthRollInFrame != 2)
+		if($nthRollInFrame != 2 && ($currentFrame == 10 && $nthRollInFrame != 3))
 			return false;
 		
 		return ($numOfPinsDown && ($numOfPinsDown + $pinsDownByRoll[$nthRollInGame-1] == 10));
@@ -159,7 +159,7 @@ class BowlingGameRules
 		if($currentFrame == 1 || $nthRollInFrame == 2)
 			return false;
 		
-		return ($this->isStrike($numOfPinsDown) && $this->isStrike($pinsDownByRoll[$nthRollInGame-1]));
+		return ($this->isStrike($numOfPinsDown, $currentFrame, $nthRollInFrame, $pinsDownByRoll, $nthRollInGame) && $this->isStrike($pinsDownByRoll[$nthRollInGame-1],$currentFrame, $nthRollInFrame, $pinsDownByRoll, $nthRollInGame));
 	}
 	
 	/*
@@ -200,9 +200,9 @@ class BowlingGameRules
 		$rollStatusArr = $rollStatusArrOriginal;
 		$frameStatusArr = $frameStatusArrOriginal;
 		
-		if($this->isStrike($numOfPinsDown))
+		if($this->isStrike($numOfPinsDown, $currentFrame, $nthRollInFrame, $pinsDownByRoll, $nthRollInGame))
 			$rollStatusArr[$nthRollInGame] 	= 'STRIKE';
-		else if($this->isSpare($numOfPinsDown, $nthRollInFrame, $nthRollInGame, $pinsDownByRoll))
+		else if($this->isSpare($numOfPinsDown, $currentFrame, $nthRollInFrame, $nthRollInGame, $pinsDownByRoll))
 			$rollStatusArr[$nthRollInGame] 	= 'SPARE';
 		if($this->isTurkey($currentFrame, $numOfPinsDown, $nthRollInFrame, $nthRollInGame, $pinsDownByRoll))
 			$frameStatusArr[$currentFrame] 	= 'TURKEY';
@@ -303,7 +303,7 @@ class ScoreBoardWriter
 				$rollInFrameCount = 1;
 				foreach($frameScoreBoard['pinsDown'] as $oneScore)
 				{
-					if($oneScore == 10)
+					if($rollStatusArr[$rollInGameCount] == 'STRIKE')
 						echo "X";
 					else if ($rollStatusArr[$rollInGameCount] == 'SPARE')
 						echo "-";
