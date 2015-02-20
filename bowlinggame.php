@@ -151,7 +151,7 @@ class BowlingGameRules
 		if($nthRollInFrame != 2 && ($currentFrame == 10 && $nthRollInFrame != 3))
 			return false;
 		
-		return ($numOfPinsDown && ($numOfPinsDown + $pinsDownByRoll[$nthRollInGame-1] == 10));
+		return ($numOfPinsDown && ($numOfPinsDown + $pinsDownByRoll[$nthRollInGame-1] == 10) && !($nthRollInFrame == 3 && $pinsDownByRoll[$nthRollInGame-2] + $pinsDownByRoll[$nthRollInGame-1] == 10));
 	}
 	
 	private function isTurkey($currentFrame, $numOfPinsDown, $nthRollInFrame, $nthRollInGame, $pinsDownByRoll)
